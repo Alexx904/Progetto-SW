@@ -1,2 +1,38 @@
 Library
 \Progetto SW\Library
+
+# Cartelle Unity da ignorare (senza lo slash iniziale valgono anche nelle sottocartelle)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# MemoryCaptures
+[Mm]emoryCaptures/
+
+# File generati da Visual Studio (che vedo nel tuo screenshot 1)
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# File temporanei di sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
