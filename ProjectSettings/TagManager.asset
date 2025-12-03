@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Anchor
   - Plastica
+  - Carta
+  - Vetro
+  - Speciale
   layers:
   - Default
   - TransparentFX
