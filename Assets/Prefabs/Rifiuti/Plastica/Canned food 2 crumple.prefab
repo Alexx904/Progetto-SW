@@ -92,47 +92,26 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 9d4fd41a7acf63543bfeed89edfabfb9, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4742473837712756890, guid: 0960dff34d3becc47b997b501854c0fb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0960dff34d3becc47b997b501854c0fb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 741217370498973021}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0960dff34d3becc47b997b501854c0fb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5107354451097322183}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0960dff34d3becc47b997b501854c0fb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7842134447838332399}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0960dff34d3becc47b997b501854c0fb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8229262884771999698}
   m_SourcePrefab: {fileID: 100100000, guid: 0960dff34d3becc47b997b501854c0fb, type: 3}
 --- !u!1 &8969323298056854689 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0960dff34d3becc47b997b501854c0fb, type: 3}
   m_PrefabInstance: {fileID: 8122270331728388592}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &741217370498973021
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8969323298056854689}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2881582441081531805, guid: 71acf467624864f448520caf1b4c8a24, type: 3}
 --- !u!54 &5107354451097322183
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -287,3 +266,24 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &8229262884771999698
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8969323298056854689}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08642855, y: 0.0812781, z: 0.0755741}
+  m_Center: {x: -0.000042706728, y: 0.040655322, z: 0.00078579783}
