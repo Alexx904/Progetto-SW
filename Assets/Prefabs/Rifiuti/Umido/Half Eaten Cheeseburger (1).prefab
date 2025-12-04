@@ -14,13 +14,12 @@ GameObject:
   - component: {fileID: 4250960882769428313}
   - component: {fileID: 5163915481189685152}
   - component: {fileID: 5471102785375969191}
-  - component: {fileID: -2235777738869996575}
   m_Layer: 0
   m_Name: Half Eaten Cheeseburger (1)
   m_TagString: Umido
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 64
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &7100264065149077628
 Transform:
@@ -268,25 +267,3 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
---- !u!64 &-2235777738869996575
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7100264065149077625}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8709535281911693698, guid: 6ee79a39487f7bb4abefb33640b1f96a, type: 3}

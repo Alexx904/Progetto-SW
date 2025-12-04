@@ -48,10 +48,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6969444634199395994, guid: 07c92a4132d69e04fa274c0e3be8bb14, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3549375757397860175, guid: 07c92a4132d69e04fa274c0e3be8bb14, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -170516348143855096, guid: 07c92a4132d69e04fa274c0e3be8bb14, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: bcbbc4a79eda44a46b56dcb9cb3d2f52, type: 2}
+    - target: {fileID: -77346846125865781, guid: 07c92a4132d69e04fa274c0e3be8bb14, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 07c92a4132d69e04fa274c0e3be8bb14, type: 3}
       propertyPath: m_Name
       value: Canned food 1 crumple
@@ -60,10 +72,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Plastica
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07c92a4132d69e04fa274c0e3be8bb14, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1982784592787129756, guid: 07c92a4132d69e04fa274c0e3be8bb14, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: bcbbc4a79eda44a46b56dcb9cb3d2f52, type: 2}
+    - target: {fileID: 2928932787233270992, guid: 07c92a4132d69e04fa274c0e3be8bb14, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4455823014364373082, guid: 07c92a4132d69e04fa274c0e3be8bb14, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
