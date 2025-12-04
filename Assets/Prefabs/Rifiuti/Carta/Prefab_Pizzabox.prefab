@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1737346676248597815}
   - component: {fileID: 4832114303173269214}
   - component: {fileID: -6404268671239616215}
+  - component: {fileID: 6252299651700174487}
   m_Layer: 0
   m_Name: Prefab_Pizzabox
   m_TagString: Carta
@@ -188,6 +189,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &6252299651700174487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6575062291528036605}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.60009205, y: 0.2743398, z: 0.6318731}
+  m_Center: {x: -0.0039725304, y: 0.12977126, z: -0.009269208}
 --- !u!1001 &3988612720162188564
 PrefabInstance:
   m_ObjectHideFlags: 0
