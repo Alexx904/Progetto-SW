@@ -9,6 +9,7 @@ TagManager:
   - Carta
   - Vetro
   - Speciale
+  - Umido
   layers:
   - Default
   - TransparentFX
