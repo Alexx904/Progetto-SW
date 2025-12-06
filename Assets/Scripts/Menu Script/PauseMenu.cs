@@ -7,6 +7,13 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject settingsUI; // Opzionale se vuoi le impostazioni anche qui
 
+    void Start()
+    {
+        // Appena premi Play, forziamo la chiusura del menu
+        // Così puoi lasciarlo attivo nell'editor per modificarlo, ma sparisce nel gioco
+        Resume(); 
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
