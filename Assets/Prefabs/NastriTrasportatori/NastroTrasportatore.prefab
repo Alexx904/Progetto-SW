@@ -46,7 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScriptNastro
   speed: 0.2
-  nastroMobile: {fileID: 8272913058803898980}
+  nastriMobili:
+  - {fileID: 8272913058803898980}
 --- !u!1001 &4423667356462166493
 PrefabInstance:
   m_ObjectHideFlags: 0

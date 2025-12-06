@@ -1,36 +1,31 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class ScriptNastro : MonoBehaviour
 {
-    [Header("Impostazioni")]
-    public float speed = 1.0f;
+    [Header("Impostazioni Globali")]
+    public float speed = 0.2f;
 
     [Header("Collegamenti")]
-    [Tooltip("Trascina qui l'oggetto PaletArrow (la gomma che gira)")]
-    public Rigidbody nastroMobile; // Riferimento al rigidbody del figlio
-
-    void Start()
-    {
-        // Controllo di sicurezza: se ti dimentichi di collegarlo, ti avvisa
-        if (nastroMobile == null)
-        {
-            Debug.LogError("ATTENZIONE: Non hai collegato il nastroMobile nello script!");
-            return;
-        }
-
-        // Configurazione automatica della fisica
-        nastroMobile.isKinematic = true;
-        nastroMobile.useGravity = false;
-    }
+    public List<Rigidbody> nastriMobili; 
 
     void FixedUpdate()
     {
-        if (nastroMobile == null) return;
-
-        // Muoviamo il Rigidbody collegato, non "this.transform"
-        Vector3 pos = nastroMobile.position;
-        // Usiamo transform.forward del PADRE (così la direzione dipende da come ruoti l'oggetto intero)
-        nastroMobile.position -= transform.forward * speed * Time.fixedDeltaTime;
-        nastroMobile.MovePosition(pos);
+        foreach (Rigidbody rb in nastriMobili)
+        {
+            if (rb != null)
+            {
+                Vector3 pos = rb.position;
+                
+                // --- MODIFICA QUI ---
+                // Prima era: transform.forward (Direzione del Padre NastroFinale)
+                // Adesso è: rb.transform.forward (Direzione del singolo pezzo di gomma)
+                
+                // Nota: Se vanno al contrario, cambia il "-=" in "+="
+                rb.position -= rb.transform.forward * speed * Time.fixedDeltaTime;
+                
+                rb.MovePosition(pos);
+            }
+        }
     }
 }
